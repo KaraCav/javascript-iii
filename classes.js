@@ -27,7 +27,7 @@ class Employee{
         this.last_name= last_name;
         this.email= email;
         this.age= age;
-        this.makeWidget= '';
+    
     }
     makeWidget(){
         return first_name + last_name + 'widget';
@@ -51,7 +51,7 @@ They can (methods) :
 call your class Manager
 
 */
-var manager= new Employee()
+var manager= new Employee(first_name,last_name,email,age)
 
 
 
